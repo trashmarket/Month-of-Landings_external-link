@@ -1,0 +1,15 @@
+@mixin widthHeigth($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin resetStyleButton {
+  background-color: inherit;
+  border: none;
+}
+
+@mixin resetList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

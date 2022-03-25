@@ -1,0 +1,11 @@
+.header__link {
+  text-decoration: none;
+  color: $color-white;
+  display: block;
+  text-align: center;
+  padding: 12px 0;
+}
+
+.header__link:last-child {
+  padding-bottom: 24px;
+}

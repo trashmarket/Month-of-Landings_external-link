@@ -1,0 +1,16 @@
+@import 'vendor/normilize.scss';
+@import 'vars.scss';
+@import './mixins.scss';
+@import './functions.scss';
+@import 'vendor/fonts.scss';
+@import './blocks/page/page.scss';
+@import './blocks/header/header.scss';
+@import './blocks/header/__wrapper/header__wrapper.scss';
+@import './blocks/header/__container-button/header__container-button.scss';
+@import './blocks/header/__burger-button/header__burger-button.scss';
+@import './blocks/header/__burger-button/_type/header__burger-button_type_close.scss';
+@import './blocks/header/__menu-wrapper/header__menu-wrapper.scss';
+@import './blocks/header/__menu-wrapper/_active/header__menu-wrapper_active.scss';
+@import './blocks/header/__list/header__list.scss';
+@import './blocks/header/__link/header__link.scss';
+

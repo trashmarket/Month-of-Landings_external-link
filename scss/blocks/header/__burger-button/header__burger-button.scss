@@ -1,0 +1,6 @@
+.header__burger-button {
+  @include widthHeigth(32px, 32px);
+  @include resetStyleButton;
+  position: relative;
+  cursor: pointer;
+}
