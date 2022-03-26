@@ -1,0 +1,5 @@
+.composition__wrapper {
+  @include wrapper-size-position('mobile');
+  border-top: 1px solid $color-black;
+  padding-top: 20px;
+}

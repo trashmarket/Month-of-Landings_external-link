@@ -1,0 +1,11 @@
+.composition__item {
+  padding-bottom: 14px;
+  border-bottom: 1px solid $color-black;
+  margin-bottom: 14px;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.composition__item:nth-child(2) {
+  padding-right: 80px;
+}
