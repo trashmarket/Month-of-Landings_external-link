@@ -1,4 +1,5 @@
 .header__wrapper {
-  width: 88%;
-  margin: 0 auto;
+  // width: 88%;
+  // margin: 0 auto;
+  @include wrapper-size-position('mobile')
 }

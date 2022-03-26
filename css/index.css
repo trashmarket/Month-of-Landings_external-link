@@ -370,7 +370,7 @@ template {
 .header__container-button {
   display: flex;
   justify-content: space-between;
-  padding: 21px;
+  padding: 19px 3px;
 }
 
 .header__burger-button {
@@ -388,9 +388,26 @@ template {
   height: 3px;
   background-color: #fff;
   position: absolute;
-  top: 0;
+  top: 4px;
   left: 0;
-  box-shadow: 0 14px 0 0 #fff, 0 28px 0 0 #fff;
+  box-shadow: 0 10px 0 0 #fff, 0 20px 0 0 #fff;
+}
+
+.header__burger-button_type_open::after, .header__burger-button_type_open::before {
+  content: "";
+  position: absolute;
+  width: 32px;
+  height: 3px;
+  left: 0;
+  background-color: #fff;
+}
+
+.header__burger-button_type_open::after {
+  transform: rotate(45deg);
+}
+
+.header__burger-button_type_open::before {
+  transform: rotate(-45deg);
 }
 
 .header__menu-wrapper {
@@ -421,5 +438,10 @@ template {
 
 .header__link:last-child {
   padding-bottom: 24px;
+}
+
+.photography-course__wrapper {
+  width: 88%;
+  margin: 0 auto;
 }
 /*# sourceMappingURL=index.css.map */

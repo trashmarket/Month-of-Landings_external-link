@@ -1,0 +1,16 @@
+.header__burger-button_type_open::after, .header__burger-button_type_open::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 3px;
+  left: 0;
+  background-color: $color-white;
+}
+
+.header__burger-button_type_open::after {
+  transform: rotate(45deg);
+}
+
+.header__burger-button_type_open::before {
+  transform: rotate(-45deg);
+}

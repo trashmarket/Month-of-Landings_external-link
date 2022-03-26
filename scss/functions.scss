@@ -1,0 +1,13 @@
+@function display-size($string) {
+  @if $string == 'mobile' {
+    @return 88%;
+  }
+  
+  @if $string == 'tablet' {
+    @return 89%
+  }
+
+  @if $string == 'desktop' {
+    @return 93%;
+  }
+}
