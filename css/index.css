@@ -501,6 +501,7 @@ template {
   line-height: 20px;
   font-weight: 400;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .composition__subtitle {
@@ -512,20 +513,20 @@ template {
 
 .composition__image {
   width: 100%;
-  margin-bottom: 60px;
+  margin-bottom: 53px;
 }
 
 .composition__description {
   font-size: 14px;
   line-height: 18px;
-  margin-bottom: 36px;
+  margin-bottom: 33px;
 }
 
 .composition__list {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-top: 80px;
+  margin-top: 61px;
 }
 
 .composition__item {
@@ -538,5 +539,86 @@ template {
 
 .composition__item:nth-child(2) {
   padding-right: 80px;
+}
+
+.composition__item:last-child {
+  margin-bottom: 0;
+  border-bottom: none;
+}
+
+.camera {
+  background-color: #000;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 1px;
+}
+
+.camera__wrapper {
+  width: 88%;
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+}
+
+.camera__title {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+.camera__subtitle {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  margin-bottom: 60px;
+}
+
+.camera__image {
+  width: 100%;
+}
+
+.camera__reviews {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-top: 51px;
+  margin-bottom: 60px;
+  text-transform: uppercase;
+}
+
+.camera__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.camera__item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 30px;
+}
+
+.camera__item:last-child {
+  border-bottom: none;
+}
+
+.camera__address {
+  font-size: 14px;
+  line-height: 20px;
+  font-style: normal;
+  margin-top: 30px;
+}
+
+.camera__cite {
+  font-size: 12px;
+  line-height: 12px;
+  font-style: normal;
+  margin-bottom: 30px;
+  display: block;
+  margin-top: 6px;
 }
 /*# sourceMappingURL=index.css.map */

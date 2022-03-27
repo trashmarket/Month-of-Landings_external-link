@@ -1,0 +1,11 @@
+.camera__item {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  border-bottom: 1px solid $color-white;
+  margin-bottom: 30px;
+}
+
+.camera__item:last-child{
+  border-bottom: none;
+}
