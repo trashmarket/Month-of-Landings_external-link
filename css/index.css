@@ -626,7 +626,7 @@ template {
   width: 88%;
   margin: 0 auto;
   border-top: 1px solid #000;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 .order-search__title {
@@ -655,5 +655,65 @@ template {
   font-size: 14px;
   line-height: 18px;
   margin-bottom: 30px;
+}
+
+.send-email {
+  background-color: #DF2626;
+  padding-top: 35px;
+  color: #fff;
+}
+
+.send-email__wrapper {
+  width: 88%;
+  margin: 0 auto;
+  border-top: 1px solid #fff;
+}
+
+.send-email__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 50px;
+  margin-top: 20px;
+  margin-bottom: 210px;
+}
+
+.send-email__form {
+  display: flex;
+}
+
+.send-email__input-text {
+  padding: 17px 0px 14px 20px;
+  font-size: 11px;
+  width: 55vw;
+  letter-spacing: 0.375px;
+  box-sizing: border-box;
+  border-radius: 8px 0px 0px 8px;
+  border: 2px solid #000;
+}
+
+.send-email__button {
+  width: 33vw;
+  font-size: 11px;
+  text-align: center;
+  letter-spacing: 0.375px;
+  box-sizing: border-box;
+  border-radius: 0px 8px 8px 0px;
+  border: 2px solid #000;
+  background-color: #fff;
+  border-left: none;
+}
+
+.footer {
+  background-color: #DF2626;
+  color: #fff;
+}
+
+.foter__copyrite {
+  width: 88%;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
 }
 /*# sourceMappingURL=index.css.map */

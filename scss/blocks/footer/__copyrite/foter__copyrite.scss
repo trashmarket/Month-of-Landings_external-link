@@ -1,0 +1,7 @@
+.foter__copyrite {
+  @include wrapper-size-position('mobile');
+  padding: 40px 0 20px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+}
