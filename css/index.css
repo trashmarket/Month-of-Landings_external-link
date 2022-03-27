@@ -621,4 +621,39 @@ template {
   display: block;
   margin-top: 6px;
 }
+
+.order-search__wrapper {
+  width: 88%;
+  margin: 0 auto;
+  border-top: 1px solid #000;
+  margin-top: 40px;
+}
+
+.order-search__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.order-search__subtitle {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38px;
+  margin-bottom: 60px;
+}
+
+.order-search__image {
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+.order-search__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 30px;
+}
 /*# sourceMappingURL=index.css.map */
