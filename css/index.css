@@ -373,12 +373,26 @@ template {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .header__wrapper {
+    width: 89%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+}
 .header__container-button {
   display: flex;
   justify-content: space-between;
   padding: 19px 3px;
 }
 
+@media screen and (min-width: 768px) {
+  .header__logo {
+    display: none;
+  }
+}
 .header__burger-button {
   width: 32px;
   height: 32px;
@@ -421,6 +435,13 @@ template {
   visibility: hidden;
 }
 
+@media screen and (min-width: 768px) {
+  .header__menu-wrapper {
+    position: initial;
+    display: flex;
+    align-items: center;
+  }
+}
 .header__menu-wrapper_active {
   visibility: visible;
   left: 0;
@@ -434,6 +455,13 @@ template {
   padding: 0;
 }
 
+@media screen and (min-width: 768px) {
+  .header__list {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+  }
+}
 .header__link {
   text-decoration: none;
   color: #fff;
@@ -446,6 +474,15 @@ template {
   padding-bottom: 24px;
 }
 
+@media screen and (min-width: 768px) {
+  .header__link {
+    padding: 0;
+  }
+
+  .header__link:last-child {
+    padding: 0;
+  }
+}
 .photography-course__wrapper {
   width: 88%;
   margin: 0 auto;

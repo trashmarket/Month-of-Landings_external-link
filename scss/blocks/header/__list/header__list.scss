@@ -1,3 +1,11 @@
 .header__list {
   @include resetList;
 }
+
+@media screen and (min-width: 768px) {
+  .header__list {
+    display: flex;
+    width: 350px;
+    justify-content: space-between;
+  }
+}
