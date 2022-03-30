@@ -386,10 +386,11 @@ template {
   display: flex;
   justify-content: space-between;
   padding: 19px 3px;
+  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
-  .header__logo {
+  .header__logo_hide {
     display: none;
   }
 }
@@ -400,6 +401,7 @@ template {
   border: none;
   position: relative;
   cursor: pointer;
+  margin-left: auto;
 }
 
 .header__burger-button_type_close::before {
@@ -438,8 +440,8 @@ template {
 @media screen and (min-width: 768px) {
   .header__menu-wrapper {
     position: initial;
-    display: flex;
     align-items: center;
+    display: none;
   }
 }
 .header__menu-wrapper_active {
@@ -449,6 +451,11 @@ template {
   background-color: #DF2626;
 }
 
+@media screen and (min-width: 768px) {
+  .header__menu-wrapper_active {
+    display: flex;
+  }
+}
 .header__list {
   list-style: none;
   margin: 0;
