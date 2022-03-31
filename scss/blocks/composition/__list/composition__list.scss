@@ -2,3 +2,12 @@
   @include resetList;
   margin-top: 61px;
 }
+
+@media screen and (min-width: 1440px) {
+  .composition__list {
+    width: 100%;
+    display: flex;
+    margin-top: 79px;
+    justify-content: space-between;
+  }
+}

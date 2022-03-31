@@ -644,6 +644,11 @@ template {
     padding-bottom: 15px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .composition {
+    padding-top: 50px;
+  }
+}
 .composition__wrapper {
   width: 88%;
   margin: 0 auto;
@@ -657,6 +662,16 @@ template {
     margin: 0 auto;
     padding-top: 0;
     border-top: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .composition__wrapper {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
   }
 }
 .composition__title {
@@ -674,6 +689,11 @@ template {
     margin-bottom: 40px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .composition__title {
+    margin-bottom: 50px;
+  }
+}
 .composition__subtitle {
   font-weight: 400;
   font-size: 30px;
@@ -688,6 +708,12 @@ template {
     width: 500px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .composition__subtitle {
+    width: 44vw;
+    margin-bottom: 100px;
+  }
+}
 .composition__image {
   width: 100%;
   margin-bottom: 53px;
@@ -696,6 +722,13 @@ template {
 @media screen and (min-width: 768px) {
   .composition__image {
     margin-bottom: 63px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .composition__image {
+    width: 45vw;
+    height: 684px;
+    margin-bottom: 0;
   }
 }
 .composition__description {
@@ -716,6 +749,18 @@ template {
     margin-bottom: 58px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .composition__description_size_l {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .composition__appointment {
+    position: absolute;
+    bottom: 0;
+    bottom: 224px;
+  }
+}
 .composition__list {
   list-style: none;
   margin: 0;
@@ -723,6 +768,14 @@ template {
   margin-top: 61px;
 }
 
+@media screen and (min-width: 1440px) {
+  .composition__list {
+    width: 100%;
+    display: flex;
+    margin-top: 79px;
+    justify-content: space-between;
+  }
+}
 .composition__item {
   padding-bottom: 14px;
   border-bottom: 1px solid #000;
@@ -741,11 +794,18 @@ template {
 }
 
 @media screen and (min-width: 768px) {
+  .composition__item:nth-child(2) {
+    padding-right: 0;
+    margin-left: 0;
+  }
+
   .composition__item {
     font-size: 18px;
     line-height: 28px;
     padding-bottom: 26px;
     padding-top: 19px;
+    border-bottom: none;
+    width: 291px;
   }
 }
 .camera {

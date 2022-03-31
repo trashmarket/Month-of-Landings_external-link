@@ -12,3 +12,10 @@
     width: 500px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .composition__subtitle {
+    width: 44vw;
+    margin-bottom: 100px;
+  }
+}
