@@ -5,3 +5,9 @@
   cursor: pointer;
   margin-left: auto;
 }
+
+@media screen and (min-width: 1440px) {
+  .header__burger-button {
+    display: none;
+  }
+}

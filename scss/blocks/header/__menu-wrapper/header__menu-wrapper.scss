@@ -3,10 +3,17 @@
   visibility: hidden;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .header__menu-wrapper {
     position: initial;
     align-items: center;
     display: none;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .header__menu-wrapper {
+    display: flex;
+    visibility: visible;
   }
 }
