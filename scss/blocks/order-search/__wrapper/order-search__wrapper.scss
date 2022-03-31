@@ -3,3 +3,11 @@
   border-top: 1px solid $color-black;
   margin-top: 30px;
 }
+
+@media screen and (min-width: 768px) {
+  .order-search__wrapper {
+    @include wrapper-size-position('tablet');
+    border-top: none;
+    margin-top: 39px;
+  }
+}

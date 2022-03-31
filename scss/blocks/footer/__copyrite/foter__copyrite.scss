@@ -5,3 +5,12 @@
   font-size: 12px;
   line-height: 24px;
 }
+
+@media screen and (min-width: 768px) {
+  .foter__copyrite {
+    @include wrapper-size-position('tablet');
+    padding: 80px 0 41px;
+    font-size: 15px;
+    line-height: 24px;
+  }
+}

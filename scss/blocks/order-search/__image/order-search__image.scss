@@ -2,3 +2,9 @@
   width: 100%;
   margin-bottom: 60px;
 }
+
+@media screen and (min-width: 768px) {
+  .order-search__image {
+    margin-bottom: 57px;
+  }
+}

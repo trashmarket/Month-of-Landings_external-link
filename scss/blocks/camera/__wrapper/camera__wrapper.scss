@@ -2,3 +2,10 @@
   @include wrapper-size-position('mobile');
   border-top: 1px solid $color-white;
 }
+
+@media screen and (min-width: 768px) {
+  .camera__wrapper {
+    @include wrapper-size-position('tablet');
+    border-top: none;
+  }
+}

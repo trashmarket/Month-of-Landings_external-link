@@ -9,3 +9,9 @@
   background-color: $color-white;
   border-left: none;
 }
+
+@media screen and (min-width: 768px) {
+  .send-email__button {
+    width: 26vw;
+  }
+}

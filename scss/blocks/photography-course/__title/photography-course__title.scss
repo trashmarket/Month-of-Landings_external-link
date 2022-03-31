@@ -5,3 +5,11 @@
   margin-top: 14px;
   margin-bottom: 60px;
 }
+
+@media screen and (min-width: 768px) {
+  .photography-course__title {
+    font-size: 100px;
+    line-height: 110px;
+    margin-top: 40px;
+  }
+}

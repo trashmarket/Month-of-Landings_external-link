@@ -6,3 +6,12 @@
   margin-bottom: 60px;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 768px) {
+  .camera__reviews {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 60px;
+    margin-bottom: 178px;
+  }
+}

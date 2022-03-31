@@ -2,3 +2,9 @@
   width: 100%;
   margin-bottom: 53px;
 }
+
+@media screen and (min-width: 768px) {
+  .composition__image {
+    margin-bottom: 63px;
+  }
+}

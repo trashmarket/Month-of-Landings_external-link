@@ -4,3 +4,9 @@
   padding: 19px 3px;
   width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+  .header__container-button {
+    padding: 26px 3px;
+  }
+}

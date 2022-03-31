@@ -3,3 +3,11 @@
   border-top: 1px solid $color-black;
   padding-top: 20px;
 }
+
+@media screen and (min-width: 768px) {
+  .composition__wrapper {
+    @include wrapper-size-position('tablet');
+    padding-top: 0;
+    border-top: none;
+  }
+}

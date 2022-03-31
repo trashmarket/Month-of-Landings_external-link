@@ -6,3 +6,12 @@
   margin-top: 20px;
   margin-bottom: 30px;
 }
+
+@media screen and (min-width: 768px) {
+  .order-search__title {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 9px;
+    margin-bottom: 41px;
+  }
+}

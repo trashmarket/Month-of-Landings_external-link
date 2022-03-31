@@ -4,3 +4,10 @@
   line-height: 38px;
   margin-bottom: 60px;
 }
+
+@media screen and (min-width: 768px) {
+  .order-search__subtitle {
+    font-size: 64px;
+    line-height: 64px;
+  }
+}

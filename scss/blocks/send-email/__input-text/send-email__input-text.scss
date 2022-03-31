@@ -1,5 +1,4 @@
 .send-email__input-text {
-  // padding: 13px 26px 13px 20px;
   padding: 17px 0px 14px 20px;
   font-size: 11px;
   width: 55vw;
@@ -7,4 +6,11 @@
   box-sizing: border-box;
   border-radius: 8px 0px 0px 8px;
   border: 2px solid $color-black;
+}
+
+@media screen and (min-width: 768px) {
+  .send-email__input-text {
+    width: 45vw;
+    
+  }
 }

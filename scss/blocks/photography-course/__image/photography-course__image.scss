@@ -3,3 +3,9 @@
   object-fit: cover;
   margin-bottom: 55px;
 }
+
+@media screen and (min-width: 768px) {
+  .photography-course__image {
+    margin-bottom: 60px;
+  }
+}

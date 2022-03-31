@@ -4,3 +4,11 @@
   font-style: normal;
   margin-top: 30px;
 }
+
+@media screen and (min-width: 768px) {
+  .camera__address {
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 109px;
+  }
+}
