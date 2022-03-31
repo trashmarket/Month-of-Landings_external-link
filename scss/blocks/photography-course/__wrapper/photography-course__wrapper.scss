@@ -7,3 +7,15 @@
     @include wrapper-size-position('tablet');
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .photography-course__wrapper {
+    @include wrapper-size-position('desktop');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 51px;
+    position: relative;
+    margin-bottom: 42px;
+  }
+}

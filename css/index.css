@@ -529,6 +529,18 @@ template {
     margin: 0 auto;
   }
 }
+@media screen and (min-width: 1440px) {
+  .photography-course__wrapper {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 51px;
+    position: relative;
+    margin-bottom: 42px;
+  }
+}
 .photography-course__title {
   font-weight: 400;
   font-size: 47px;
@@ -544,6 +556,12 @@ template {
     margin-top: 40px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .photography-course__title {
+    width: 45vw;
+    margin-top: 0;
+  }
+}
 .photography-course__image {
   width: 100%;
   -o-object-fit: cover;
@@ -554,6 +572,12 @@ template {
 @media screen and (min-width: 768px) {
   .photography-course__image {
     margin-bottom: 60px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .photography-course__image {
+    width: 45vw;
+    margin-bottom: 0;
   }
 }
 .photography-course__description {
@@ -570,6 +594,11 @@ template {
     margin-bottom: 60px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .photography-course__description_size_l {
+    display: none;
+  }
+}
 .photography-course__more-button {
   margin-bottom: 20px;
 }
@@ -577,6 +606,13 @@ template {
 @media screen and (min-width: 768px) {
   .photography-course__more-button {
     margin-bottom: 38px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .photography-course__more-button {
+    position: absolute;
+    bottom: 28px;
+    bottom: -32px;
   }
 }
 .button {

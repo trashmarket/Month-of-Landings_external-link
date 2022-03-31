@@ -7,3 +7,11 @@
     margin-bottom: 38px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .photography-course__more-button {
+    position: absolute;
+    bottom: 28px;
+    bottom: -32px;
+  }
+}

@@ -13,3 +13,10 @@
     margin-top: 40px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .photography-course__title {
+    width: 45vw;
+    margin-top: 0;
+  }
+}
