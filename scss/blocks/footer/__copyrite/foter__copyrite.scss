@@ -14,3 +14,11 @@
     line-height: 24px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .foter__copyrite {
+    @include wrapper-size-position('desktop');
+    padding: 88px 0 60px;
+    max-width: 1807px
+  }
+}

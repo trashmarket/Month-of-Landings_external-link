@@ -387,6 +387,7 @@ template {
     width: 93%;
     margin: 0 auto;
     flex-direction: row;
+    max-width: 1807px;
   }
 }
 .header__container-button {
@@ -539,6 +540,7 @@ template {
     margin-top: 51px;
     position: relative;
     margin-bottom: 42px;
+    max-width: 1807px;
   }
 }
 .photography-course__title {
@@ -678,6 +680,7 @@ template {
     flex-wrap: wrap;
     justify-content: space-between;
     position: relative;
+    max-width: 1807px;
   }
 }
 .composition__title {
@@ -859,6 +862,8 @@ template {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    position: relative;
+    max-width: 1807px;
   }
 }
 .camera__title {
@@ -924,7 +929,8 @@ template {
 }
 @media screen and (min-width: 1440px) {
   .camera__reviews {
-    margin-top: -35px;
+    position: absolute;
+    bottom: 343px;
   }
 }
 .camera__list {
@@ -936,6 +942,7 @@ template {
 @media screen and (min-width: 1440px) {
   .camera__list {
     display: flex;
+    margin-top: 178px;
   }
 }
 .camera__item {
@@ -1013,6 +1020,11 @@ template {
     padding-bottom: 42px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .order-search {
+    padding-bottom: 0;
+  }
+}
 .order-search__wrapper {
   width: 88%;
   margin: 0 auto;
@@ -1026,6 +1038,16 @@ template {
     margin: 0 auto;
     border-top: none;
     margin-top: 39px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .order-search__wrapper {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1807px;
   }
 }
 .order-search__title {
@@ -1045,6 +1067,12 @@ template {
     margin-bottom: 41px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .order-search__title {
+    margin-top: 56px;
+    margin-bottom: 49px;
+  }
+}
 .order-search__subtitle {
   font-weight: 400;
   font-size: 32px;
@@ -1058,6 +1086,12 @@ template {
     line-height: 64px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .order-search__subtitle {
+    width: 770px;
+    margin-bottom: 104px;
+  }
+}
 .order-search__image {
   width: 100%;
   margin-bottom: 60px;
@@ -1066,6 +1100,12 @@ template {
 @media screen and (min-width: 768px) {
   .order-search__image {
     margin-bottom: 57px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .order-search__image {
+    width: 648px;
+    margin-bottom: 42px;
   }
 }
 .order-search__description {
@@ -1083,12 +1123,23 @@ template {
     margin-bottom: 59px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .order-search__description {
+    margin-top: 391px;
+    margin-bottom: 149px;
+  }
+}
 .send-email {
   background-color: #DF2626;
   padding-top: 35px;
   color: #fff;
 }
 
+@media screen and (min-width: 1440px) {
+  .send-email {
+    padding-top: 45px;
+  }
+}
 .send-email__wrapper {
   width: 88%;
   margin: 0 auto;
@@ -1100,6 +1151,7 @@ template {
     width: 89%;
     margin: 0 auto;
     border-top: none;
+    max-width: 1807px;
   }
 }
 .send-email__title {
@@ -1118,10 +1170,35 @@ template {
     margin-bottom: 189px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .send-email__title {
+    font-size: 120px;
+    line-height: 120px;
+    width: 885px;
+    margin-left: 150px;
+    margin-bottom: 124px;
+    position: relative;
+  }
+
+  .send-email__title::before {
+    content: "";
+    width: 129px;
+    height: 95px;
+    position: absolute;
+    top: 14px;
+    left: -175px;
+    background-image: url("../img/icons/footer-arrow.svg");
+  }
+}
 .send-email__form {
   display: flex;
 }
 
+@media screen and (min-width: 1440px) {
+  .send-email__form {
+    margin-left: 157px;
+  }
+}
 .send-email__input-text {
   padding: 17px 0px 14px 20px;
   font-size: 11px;
@@ -1135,6 +1212,11 @@ template {
 @media screen and (min-width: 768px) {
   .send-email__input-text {
     width: 45vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .send-email__input-text {
+    width: 24vw;
   }
 }
 .send-email__button {
@@ -1152,6 +1234,11 @@ template {
 @media screen and (min-width: 768px) {
   .send-email__button {
     width: 26vw;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .send-email__button {
+    width: 14vw;
   }
 }
 .footer {
@@ -1175,6 +1262,14 @@ template {
     padding: 80px 0 41px;
     font-size: 15px;
     line-height: 24px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .foter__copyrite {
+    width: 93%;
+    margin: 0 auto;
+    padding: 88px 0 60px;
+    max-width: 1807px;
   }
 }
 /*# sourceMappingURL=index.css.map */

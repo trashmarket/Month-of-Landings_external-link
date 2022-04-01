@@ -7,5 +7,6 @@
   .send-email__wrapper {
     @include wrapper-size-position('tablet');
     border-top: none;
+    max-width: 1807px
   }
 }

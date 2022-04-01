@@ -5,11 +5,18 @@
   margin-bottom: 30px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .order-search__description {
     font-size: 18px;
     line-height: 28px;
     width: 380px;
     margin-bottom: 59px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .order-search__description {
+    margin-top: 391px;
+    margin-bottom: 149px;
   }
 }

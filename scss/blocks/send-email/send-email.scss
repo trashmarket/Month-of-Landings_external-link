@@ -3,3 +3,9 @@
   padding-top: 35px;
   color: $color-white;
 }
+
+@media screen and (min-width: 1440px) {
+  .send-email {
+    padding-top: 45px;
+  }
+}

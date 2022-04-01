@@ -1,3 +1,9 @@
 .send-email__form {
   display: flex;
 }
+
+@media screen and (min-width: 1440px) {
+  .send-email__form {
+    margin-left: 157px;
+  }
+}

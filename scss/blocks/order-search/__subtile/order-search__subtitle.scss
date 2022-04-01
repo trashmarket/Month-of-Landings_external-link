@@ -11,3 +11,10 @@
     line-height: 64px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+ .order-search__subtitle {
+   width: 770px;
+   margin-bottom:104px;
+ } 
+}

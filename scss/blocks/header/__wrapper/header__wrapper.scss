@@ -15,5 +15,6 @@
   .header__wrapper {
     @include wrapper-size-position('desktop');
     flex-direction: row;
+    max-width: 1807px
   }
 }

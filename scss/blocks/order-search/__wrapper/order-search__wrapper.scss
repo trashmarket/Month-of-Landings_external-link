@@ -11,3 +11,13 @@
     margin-top: 39px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .order-search__wrapper {
+    @include wrapper-size-position('desktop');
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1807px
+  }
+}

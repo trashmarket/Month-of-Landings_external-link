@@ -14,3 +14,24 @@
     margin-bottom: 189px;
   }
 }
+
+@media screen and (min-width: 1440px) {
+  .send-email__title {
+    font-size: 120px;
+    line-height: 120px;
+    width: 885px;
+    margin-left: 150px;
+    margin-bottom: 124px;
+    position: relative;
+  }
+
+  .send-email__title::before {
+    content: "";
+    width: 129px;
+    height: 95px;
+    position: absolute;
+    top: 14px;
+    left: -175px;
+    background-image: url('../img/icons/footer-arrow.svg');
+  }
+}
