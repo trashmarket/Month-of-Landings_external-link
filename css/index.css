@@ -594,8 +594,13 @@ template {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .photography-course__description_size_l {
+    display: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .photography-course__description_size_m {
     display: none;
   }
 }
@@ -647,6 +652,7 @@ template {
 @media screen and (min-width: 1440px) {
   .composition {
     padding-top: 50px;
+    padding-bottom: 9px;
   }
 }
 .composition__wrapper {
@@ -798,6 +804,14 @@ template {
   border-bottom: none;
 }
 
+@media screen and (min-width: 768px) {
+  .composition__item {
+    font-size: 18px;
+    line-height: 28px;
+    padding-bottom: 26px;
+    padding-top: 19px;
+  }
+}
 @media screen and (min-width: 1440px) {
   .composition__item:nth-child(2) {
     padding-right: 0;
@@ -820,6 +834,11 @@ template {
   padding-bottom: 1px;
 }
 
+@media screen and (min-width: 1440px) {
+  .camera {
+    padding-top: 50px;
+  }
+}
 .camera__wrapper {
   width: 88%;
   margin: 0 auto;
@@ -831,6 +850,15 @@ template {
     width: 89%;
     margin: 0 auto;
     border-top: none;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .camera__wrapper {
+    width: 93%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 }
 .camera__title {
@@ -850,6 +878,11 @@ template {
     margin-bottom: 39px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .camera__title {
+    margin-bottom: 49px;
+  }
+}
 .camera__subtitle {
   font-weight: 400;
   font-size: 48px;
@@ -861,6 +894,11 @@ template {
   .camera__subtitle {
     font-size: 122px;
     line-height: 122px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .camera__subtitle {
+    width: 45vw;
   }
 }
 .camera__image {
@@ -884,12 +922,22 @@ template {
     margin-bottom: 178px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .camera__reviews {
+    margin-top: -35px;
+  }
+}
 .camera__list {
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
+@media screen and (min-width: 1440px) {
+  .camera__list {
+    display: flex;
+  }
+}
 .camera__item {
   font-weight: 400;
   font-size: 24px;
@@ -912,6 +960,18 @@ template {
     margin-bottom: 59px;
   }
 }
+@media screen and (min-width: 1440px) {
+  .camera__item {
+    border-bottom: none;
+    width: 538px;
+    margin-bottom: 0;
+  }
+
+  .camera__item:nth-of-type(1) {
+    margin-right: 160px;
+    margin-bottom: 0;
+  }
+}
 .camera__address {
   font-size: 14px;
   line-height: 20px;
@@ -924,6 +984,11 @@ template {
     font-size: 18px;
     line-height: 28px;
     margin-top: 109px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .camera__address {
+    margin-top: 59px;
   }
 }
 .camera__cite {

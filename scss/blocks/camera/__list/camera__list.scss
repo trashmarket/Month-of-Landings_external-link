@@ -1,3 +1,9 @@
 .camera__list {
   @include resetList;
 }
+
+@media screen and (min-width: 1440px) {
+  .camera__list {
+    display: flex;
+  }
+}
