@@ -1,6 +1,8 @@
 const burgerButton = document.querySelector('.header__burger-button');
 const menu = document.querySelector('.header__menu-wrapper');
 const headerLogo = document.querySelector('.header__logo');
+const form = document.querySelector('.send-email__form');
+const input = document.querySelector('.send-email__button');
 
 function chengeClassList (nameFordel, nameForAdd) {
   burgerButton.classList.remove(nameFordel);
@@ -22,4 +24,9 @@ burgerButton.onclick = function(event) {
       headerLogo.classList.remove('header__logo_hide');
     }
   }
+}
+
+form.onsubmit = (event) => {
+  event.preventDefault();
+  input.textContent = 'Спасибо';
 }

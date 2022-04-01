@@ -1,0 +1,16 @@
+.header__logo {
+  transform: rotate(0);
+  transition: transform .5s;
+}
+
+.header__logo:hover {
+  transform: rotate(360deg);
+}
+
+@media screen and (min-width: 1440px) {
+  .header__logo {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+}

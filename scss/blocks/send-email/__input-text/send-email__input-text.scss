@@ -8,6 +8,10 @@
   border: 2px solid $color-black;
 }
 
+.send-email__input-text::placeholder{
+  color: $color-black;
+}
+
 @media screen and (min-width: 768px) {
   .send-email__input-text {
     width: 45vw;

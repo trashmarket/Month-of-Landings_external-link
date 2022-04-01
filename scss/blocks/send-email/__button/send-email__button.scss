@@ -8,6 +8,11 @@
   border: 2px solid $color-black;
   background-color: $color-white;
   border-left: none;
+  cursor: pointer;
+}
+
+.send-email__button:hover {
+  font-weight: 700;
 }
 
 @media screen and (min-width: 768px) {

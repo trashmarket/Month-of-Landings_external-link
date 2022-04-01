@@ -4,6 +4,12 @@
   display: block;
   text-align: center;
   padding: 12px 0;
+  opacity: 1;
+  transition: opacity .5s;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
 
 .header__link:last-child {
