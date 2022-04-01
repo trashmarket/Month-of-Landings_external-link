@@ -14,8 +14,11 @@
   margin-bottom: 0;
   border-bottom: none;
 }
-
 @media screen and (min-width: 768px) {
+  
+}
+
+@media screen and (min-width: 1440px) {
   .composition__item:nth-child(2) {
     padding-right: 0;
     margin-left: 0;

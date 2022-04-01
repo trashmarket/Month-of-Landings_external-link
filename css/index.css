@@ -749,8 +749,13 @@ template {
     margin-bottom: 58px;
   }
 }
+@media screen and (max-width: 1439px) {
+  .composition__description_l {
+    display: none;
+  }
+}
 @media screen and (min-width: 1440px) {
-  .composition__description_size_l {
+  .composition__description_size_m {
     display: none;
   }
 }
@@ -793,7 +798,7 @@ template {
   border-bottom: none;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1440px) {
   .composition__item:nth-child(2) {
     padding-right: 0;
     margin-left: 0;
